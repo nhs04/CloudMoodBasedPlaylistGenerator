@@ -1,4 +1,4 @@
-#Cloud Mood Based Playlist Generator 
+# Cloud Mood Based Playlist Generator 
 
 I developed a serverless web app that generates personalized music playlists based on a user’s mood input. Users can type how they feel (e.g., "I'm stressed from exams"), and the system detects their mood, then displays a matching Spotify playlist. Logged-in users can save, view, and delete their playlists at any time, receiving a confirmation email whenever a playlist is saved.
 
