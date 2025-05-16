@@ -1,0 +1,5 @@
+#Cloud Mood Based Playlist Generator 
+
+I developed a serverless web app that generates personalized music playlists based on a user’s mood input. Users can type how they feel (e.g., "I'm stressed from exams"), and the system detects their mood, then displays a matching Spotify playlist. Logged-in users can save, view, and delete their playlists at any time, receiving a confirmation email whenever a playlist is saved.
+
+AWS Lambda was used for backend processing, handling mood detection and playlist generation. API Gateway facilitated communication between the frontend and backend, while DynamoDB securely stored user data and playlist history. For user authentication, I integrated AWS Cognito, enabling users to log in and manage their playlists. The app’s frontend was hosted on Amazon S3, and CloudFront ensured fast, reliable global delivery. I used SNS to send real-time email notifications when a playlist was saved, and IAM for secure access control to the system’s resources. Additionally, VPC was implemented to isolate the backend infrastructure within a secure network.
